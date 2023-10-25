@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://unpkg.com/react/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+    <script src="my-react-app/src/App.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FEMTECH</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <!-- aos css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="App.css" />
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/9b54928ef1.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <nav id="go-to-top" class="navbar navbar-expand-lg selectDisable">
+        <a class="navbar-brand" href="index.html"> FEMTECH </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item navlink-border">
+                    <a class="nav-link px-4" href="resources.html">Resources</a>
+                </li>
+                <li class="nav-item navlink-border">
+                    <a class="nav-link px-4" href="products.html">Products</a>
+                </li>
+                <li class="nav-item navlink-border">
+                    <a class="nav-link px-4" href="ideas.html">Ideas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-4" href="login.html"><button class="btn login-btn">Login</button></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="productss">
+        <div class="container-fluid-hero">
+            <div class="row">
+                <div class="col-lg-6 hero-intro">
+                    <h2>We bring to you Products that inculcate health and work balance<span>.</span><br /></h2>
+                    <a href="#product"><button class="btn btn-lg products-btn">
+                            Take me to Products ⚡️
+                        </button></a>
+                </div>
+                <div class="col-lg-6 hero-image pt-5 pl-5">
+                    <img class="image-fluid .d-none .d-lg-block .d-xl-none image-width" src="resources-hero.png" alt="resources-hero" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product">
+        <div class="grid-container">
+            <div id="item1" class="grid-item">
+                <a href="https://www.amazon.in/HP-Ergonomically-Connection-Indicator-664R5AA/dp/B0B71WT5XT/ref=sr_1_7?keywords=Ergonomic%2BKeyboard&qid=1696344331&sr=8-7&th=1">
+                <img class="product-image" src="Picture 1.png" alt="Product 1"></a><br>
+                <br><h5 class="product-title">Ergonomic Keyboard</h5>
+                    <p>
+                     Designed to reduce wrist strain and promote a more natural hand position, ergonomic keyboards come in various shapes and designs, including split keyboards and curved keyboards.
+                    </p>
+                <p class="product-price">$19.99</p>
+            </div>
+            
+            <div id="item2" class="grid-item">
+                <a href="https://www.amazon.in/Plixio%C2%AE-Adjustable-Aluminum-Ergonomic-Compatible/dp/B08R78CSZ5/ref=sr_1_9?adgrpid=58076292719&ext_vrnc=hi&hvadid=398022300840&hvdev=c&hvlocphy=9062089&hvnetw=g&hvqmt=e&hvrand=12504264033277313488&hvtargid=kwd-88232821&hydadcr=17719_1978530&keywords=ergonomic%2Blaptop%2Bstands&qid=1696344700&sr=8-9&th=1">
+                <img class="product-image" src="Picture 2.png" alt="Product 1"></a><br>
+                <br><h5 class="product-title">Laptop Stand</h5>
+                    <p>Elevating your laptop to eye level with a laptop stand can reduce neck strain by promoting a more natural viewing angle. - Short Description</p>
+                <p class="product-price">$19.99</p></div>
+    
+            
+            <div id="item3" class="grid-item">
+                <a href="https://www.amazon.in/Mokshith-Footrest-Massage-Ergonomic-Office/dp/B0C7QGR8WV/ref=sr_1_9?adgrpid=64595530491&ext_vrnc=hi&hvadid=381600299897&hvdev=c&hvlocphy=9062089&hvnetw=g&hvqmt=b&hvrand=13348167997760821094&hvtargid=kwd-16812616&hydadcr=10508_1908221&keywords=ergonomic+foot+rest&qid=1696344931&sr=8-9">
+                <img class="product-image" src="Picture 3.png" alt="Product 1"></a><br>
+                <br><h5 class="product-title">Footrest</h5>
+                    <p>A footrest can help relieve pressure on your legs and improve circulation by allowing you to adjust your sitting position.</p>
+                <p class="product-price">$19.99</p></div>
+    
+            
+            <div id="item4" class="grid-item">
+                <a href="https://www.amazon.in/Abhsant-Fatigue-Polyester-Waterproof-Standing/dp/B0CJFG5GL1/ref=sr_1_42?adgrpid=62586054367&ext_vrnc=hi&hvadid=590914490578&hvdev=c&hvlocphy=9062089&hvnetw=g&hvqmt=e&hvrand=17210134092359234205&hvtargid=kwd-19218654002&hydadcr=1662_2219623&keywords=anti-fatigue+mat&qid=1696345039&sr=8-42">
+                <img class="product-image" src="Picture 4.png" alt="Product 1"></a><br>
+                <br><h5 class="product-title">Anti-Fatigue Mat</h5>
+                <p>These mats provide cushioning for your feet and reduce fatigue when standing at a desk for extended periods.</p>
+                <p class="product-price">$19.99</p>
+            </div>
+            
+            <div id="item5" class="grid-item">
+                <a href="https://www.amazon.in/FORKLS-Electronics-Watreproof-Electronic-Accessories/dp/B09M4CRLTM/ref=sr_1_6?adgrpid=65583438887&ext_vrnc=hi&hvadid=590712376067&hvdev=c&hvlocphy=9062089&hvnetw=g&hvqmt=e&hvrand=1465787186595002016&hvtargid=kwd-950840501931&hydadcr=24565_2265463&keywords=tech+kit+organiser&qid=1696345508&sr=8-6">
+                <img class="product-image" src="Picture 5.png" alt="Product 1"></a><br>
+                <br><h5 class="product-title">Tech Kit Organiser</h5>
+                <p>Stylish and functional kit organisers designed with tech professionals in mind provide secure storage for devices and accessories.</p>
+                <p class="product-price">$19.99</p>
+            </div>
+            
+            <div id="item6" class="grid-item">
+                <a href="https://www.amazon.in/CELLEBII%C2%AE-Silicone-Pressure-Ultimate-Breathable/dp/B0CBRRTGGX/ref=sr_1_8?adgrpid=54467285930&ext_vrnc=hi&hvadid=294124912019&hvdev=c&hvlocphy=9062089&hvnetw=g&hvqmt=e&hvrand=7507439282176630598&hvtargid=kwd-683967221&hydadcr=19972_1725703&keywords=gel+seat+cushion&qid=1696345740&sr=8-8">
+                <img class="product-image" src="Picture 6.png" alt="Product 1"></a><br>
+                <br><h5 class="product-title">Gel Seat Cushion</h5>
+                <p> A gel seat cushion can add extra comfort to your chair, providing support and reducing pressure points on your buttocks and thighs.</p>
+                <p class="product-price">$19.99</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h1><a id="back-to-top" href="#go-to-top">
+                        FEMTECH
+                    </a></h1>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <p><a href=> &#169; Dhyey Desai , Kashti Dholakia , Abhishek Vajani, Kanav Aggarwal - 3rd Year Btech Computer Science and Engineering, SIT Pune. </a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <a href=>
+                        <i class="fab fa-github fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body> 
+</html>
+
+
+        
+
+
+

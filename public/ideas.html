@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://unpkg.com/react/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+    <script src="my-react-app/src/App.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FEMTECH</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <!-- aos css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="App.css" />
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/9b54928ef1.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+     <nav id="go-to-top" class="navbar navbar-expand-lg selectDisable">
+        <a class="navbar-brand" href="index.html"> FEMTECH </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item navlink-border">
+                    <a class="nav-link px-4" href="resources.html">Resources</a>
+                </li>
+                <li class="nav-item navlink-border">
+                    <a class="nav-link px-4" href="products.html">Products</a>
+                </li>
+                <li class="nav-item navlink-border">
+                    <a class="nav-link px-4" href="ideas.html">Ideas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-4" href="login.html"><button class="btn login-btn">Login</button></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+    <main>
+        <section id="testimonial-container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://gizmodo.com/">
+                    <img src="Pic 1.png" class="d-block w-100" alt="gizmodo"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://techcrunch.com/">
+                    <img src="Pic 2.png" class="d-block w-100" alt="techcrunch"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.wired.com/">
+                    <img src="Pic 3.png" class="d-block w-100" alt="wired"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.digitaltrends.com/">
+                    <img src="Pic 4.png" class="d-block w-100" alt="digitaltrends"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://in.mashable.com/">
+                    <img src="Pic 5.png" class="d-block w-100" alt="mashable"></a>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </section>
+    </main>
+
+    <div class="row">
+        <div class="column1">
+            <div class="card">
+                <div class="card-body">
+                    <h5 id="resume-heading">Resume Building</h5><br>
+                    <p id="resumepara">Tips to follow to create an impressive resume:<br> <br>
+
+                        1. Customize: Tailor your resume to the specific job by aligning your skills and experience with the job description.</br>
+                        
+                        2. Keywords: Use relevant keywords from the job description to enhance ATS visibility.</br>
+                        
+                        3. Quantify Achievements: Use metrics to showcase your impact, such as percentage increases or project outcomes.</br>
+                        
+                        4. Strong Verbs: Employ strong action verbs, avoiding clichés, to describe your accomplishments.</br>
+                        
+                        5. Proofread: Carefully review your resume for typos and errors to maintain professionalism.</br>
+                        
+                        6. Technical Skills: Highlight your technical expertise, including programming languages and tools.</br>
+                        
+                        7. Project Highlights: Include notable projects and contributions to demonstrate real-world experience.</br>
+                        
+                        8. Specific Examples: Be specific and provide examples to illustrate your qualifications.</br>
+                        
+                        9. Tailor Again: Customize your resume for the specific role you're applying for.</br>
+                        
+                        10. Seek Feedback: Have a trusted friend or colleague review your resume for improvements.</br>
+                        </p>
+                        <a href="https://youtu.be/y8YH0Qbu5h4?si=MOcqQWLrVOrnBBfk">
+                            <p id="resume-video">Video Reference</p>
+                        </a>
+                        
+                </div>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 id="success">Success Stories</h5><br><br>
+                    <a href="https://www.forbes.com/sites/byroncole/2023/09/13/women-empowering-tech-inspiring-stories-of-success-and-impact/?sh=5b20159b22c4">
+                        <img src="sona.png" alt="Sonal Shah" height="350" width="271.3"></a>
+                    <br><br><p class="photo">Sonal Shah has been in the corporate world for over 20 years. Along her journey and guided by the desire for an even more fulfilling career, Shah upskilled by taking a year out to change career and gain a master's degree in computing and information technology.</p>
+                    <br>
+                    <a href=" https://www.vogue.in/magazine-story/6-indian-women-in-tech-whose-stories-will-inspire-young-girls-everywhere/">
+                    <p>Other Blogs</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h1><a id="back-to-top" href="#go-to-top">
+                        FEMTECH
+                    </a></h1>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <p><a href=> &#169; Dhyey Desai , Kashti Dholakia , Abhishek Vajani, Kanav Aggarwal - 3rd Year Btech Computer Science and Engineering, SIT Pune. </a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <a href=>
+                        <i class="fab fa-github fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
